@@ -1,0 +1,46 @@
+    keyword   "class"         101
+    keyword   "constructor"   102
+    keyword   "function"      103
+    keyword   "method"        104
+    keyword   "field"         105
+    keyword   "static"        106
+    keyword   "var"           107
+    keyword   "int"           108
+    keyword   "char"          109
+    keyword   "boolean"       110
+    keyword   "void"          111
+    keyword   "true"          112
+    keyword   "false"         113
+    keyword   "null"          114
+    keyword   "this"          115
+    keyword   "let"           116
+    keyword   "do"            117
+    keyword   "if"            118
+    keyword   "else"          119
+    keyword   "while"         120
+    keyword   "return"        121
+
+
+    symbol  "{"    201
+    symbol  "}"    202
+    symbol  "("    203
+    symbol  ")"    204
+    symbol  "["    205
+    symbol  "]"    206
+    symbol  "."    207
+    symbol  ","    208
+    symbol  ";"    209
+    symbol  "+"    210
+    symbol  "-"    211
+    symbol  "*"    212
+    symbol  "/"    213
+    symbol  "&"    214
+    symbol  "|"    215
+    symbol  "<"    216
+    symbol  ">"    217
+    symbol  "="    218
+    symbol  "~"    219
+
+    Integer Constant 300
+    String Constant  400
+    Identifier       500

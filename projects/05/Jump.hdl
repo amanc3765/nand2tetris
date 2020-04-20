@@ -1,0 +1,37 @@
+
+CHIP Jump {
+    IN zero, neg, sel[3];
+    OUT out;
+
+    PARTS:
+    
+    Or(
+        a  = neg,
+        b  = zero,
+        out = lez    
+    );
+    Not(
+        in  = lez,
+        out = pos
+    );
+    Not(
+        in  = neg,
+        out = gez
+    );
+    Not( 
+        in  = zero,
+        out = nez
+    );
+    Mux8(
+        a   = false,
+        b   = pos,
+        c   = zero,
+        d   = gez,
+        e   = neg,
+        f   = nez, 
+        g   = lez,
+        h   = true,
+        sel = sel,
+        out = out
+    );
+}
